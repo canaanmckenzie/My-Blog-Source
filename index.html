@@ -1,0 +1,14 @@
+---
+layout: full-width
+title: Canaan McKenzie
+---
+<h1 class="content-listing-header sans">Notes</h1>
+<ul class="content-listing">
+    {% for post in site.posts%}
+    <li class="listing">
+        <br>
+        <a href="{{post.url | prepend: site.baseurl}}"><h3 class="contrast">{{post.title}}</h3></a>
+        <br><span class="smaller">{{post.date | date: "%B %-d, %Y"}}</span></br>
+    </li>
+    {%endfor%}
+</ul>
