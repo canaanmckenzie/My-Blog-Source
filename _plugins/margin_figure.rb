@@ -1,9 +1,4 @@
 
-## Liquid tag 'marginfigure' used to add image data that fits 
-## in the right margin column area of the layout
-## Usage {% marginfigure 'margin-id-whatever' 'path/to/image' 'This is the caption' %}
-#NOT WORKING
-
 module Jekyll
   class RenderMarginFigureTag < Liquid::Tag
 
